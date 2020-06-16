@@ -9,5 +9,7 @@ Desired_Capabilities = {
   "appActivity": "com.netease.mobimail.activity.TabActivity",
   "noReset": True,
   "unicodeKeyboard": True,
-  "resetKeyboard": True
+  "resetKeyboard": True,
+  'skipServerInstallation': True,
+  'skipDeviceInitialization': True
 }
