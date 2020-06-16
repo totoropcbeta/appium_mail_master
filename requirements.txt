@@ -1,0 +1,5 @@
+openpyxl==2.3.3
+Appium-Python-Client==1.0.1
+ddt==1.4.1
+selenium==3.141.0
+yagmail==0.11.224
