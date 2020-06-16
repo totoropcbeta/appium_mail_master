@@ -9,7 +9,7 @@ class BasePage:
 
     # class 定位
     def by_class(self, class_name):
-        return self.driver.find_element_by_class_name(class_name)
+        return self.driver.find_elements_by_class_name(class_name)
 
     # xpath 定位
     def by_xpath(self, xpath):
@@ -30,3 +30,6 @@ class BasePage:
     # 获取所有元素class属性为class_name的文本内容
     def cur_text(self, class_name):
         return self.driver.find_element_by_class_name(class_name)
+
+    def drag_drop(self, el1, el2):
+        return self.driver.drag_and_drop(el1, el2)
