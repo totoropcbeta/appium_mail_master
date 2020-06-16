@@ -7,3 +7,5 @@ xpath5 = "//android.widget.TextView[contains(@text,'职位')]/../android.widget.
 xpath6 = "//android.widget.TextView[contains(@text,'电话')]/../android.widget.EditText"
 xpath7 = "//android.widget.TextView[contains(@text,'地址')]/../android.widget.EditText"
 xpath8 = "//android.widget.TextView[contains(@text,'备注')]/../android.widget.EditText"
+pos_xpath = "//android.widget.TextView[contains(@text,'职位')]"
+com_xpath = "//android.widget.TextView[contains(@text,'公司')]"
