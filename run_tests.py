@@ -34,4 +34,4 @@ if __name__ == '__main__':
         )
         runner.run(suite)
         fp.close()
-        # send_mail(html_report)  # 发送报告
+        send_mail(html_report)  # 发送报告
