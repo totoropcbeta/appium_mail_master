@@ -24,7 +24,7 @@ io.appium.uiautomator.server 和 io.appium.uiautomator.server.test
 
 ```python
 'skipServerInstallation': True,
-'skipDeviceInitialization': True`
+'skipDeviceInitialization': True
 ```
 
   
