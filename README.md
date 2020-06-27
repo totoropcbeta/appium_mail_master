@@ -8,14 +8,14 @@
 
 ②"写邮件">>>编辑邮件并发送
 
-③"新建待办">>>新建代办事项
+③"新建待办">>>新建待办事项
 
 
 测试环境：Windows10 + Python3.7.5 + Pycharm2020.1
 
 测试机型：Redmi_Note_5
 
-6.23.1
+app版本：6.23.1
 
 建议在Desired_Capabilities添加如下参数避免每次执行测试重复安装
 io.appium.uiautomator.server 和 io.appium.uiautomator.server.test
