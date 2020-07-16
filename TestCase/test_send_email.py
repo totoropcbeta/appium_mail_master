@@ -7,7 +7,7 @@ from Config.app_config import Desired_Capabilities
 from TestAction.send_email import SendEmail
 from Utils.exceldealutil import ParseExcel
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-excelpath = base_dir + '\\TestData\\write_email_info.xlsx'
+excelpath = base_dir + '/TestData/write_email_info.xlsx'
 sheetname = 'Sheet1'
 excel = ParseExcel(excelpath, sheetname)
 

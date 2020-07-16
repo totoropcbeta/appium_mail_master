@@ -11,7 +11,7 @@
 ③"新建待办">>>新建待办事项
 
 
-测试环境：Windows10 + Python3.7.5 + Pycharm2020.1
+测试环境：Ubuntu20.04 + Python3.7.5 + Pycharm2020.1
 
 测试机型：Redmi_Note_5
 

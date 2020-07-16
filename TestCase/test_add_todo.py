@@ -8,7 +8,7 @@ from TestAction.add_todo import AddToDo
 from Utils.exceldealutil import ParseExcel
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-excelpath = base_dir + '\\TestData\\add_todo.xlsx'
+excelpath = base_dir + '/TestData/add_todo.xlsx'
 sheetname = 'Sheet1'
 excel = ParseExcel(excelpath, sheetname)
 

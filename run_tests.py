@@ -21,16 +21,16 @@ if __name__ == '__main__':
     # 定义测试用例的目录为当前目录
     base_dir = os.path.dirname(os.path.abspath(__file__))
     # print(base_dir)
-    test_dir = base_dir + '\\TestCase'
+    test_dir = base_dir + '/TestCase'
     suite = unittest.defaultTestLoader.discover(start_dir=test_dir, pattern='test_*.py')
-    html_report = base_dir + '\\TestReport\\report.html'
+    html_report = base_dir + '/TestReport/report.html'
     with open(html_report, 'wb') as fp:
         # 调用HTMLTestRunner，运行测试用例
         runner = HTMLTestRunner(
             stream=fp,
             verbosity=2,
             title="网易邮箱大师app自动化测试报告",
-            description="Windows10,Redmi_Note_5"
+            description="Ubuntu20.04,Redmi_Note_5"
         )
         runner.run(suite)
         fp.close()

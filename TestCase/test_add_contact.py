@@ -7,7 +7,7 @@ from Config.app_config import Desired_Capabilities
 from TestAction.add_contact import AddContact
 from Utils.exceldealutil import ParseExcel
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-excelpath = base_dir + '\\TestData\\contact_info.xlsx'
+excelpath = base_dir + '/TestData/contact_info.xlsx'
 sheetname = 'Sheet1'
 excel = ParseExcel(excelpath, sheetname)
 
