@@ -1,0 +1,84 @@
+Tue, 21 Jul 2020 16:49:04 test_add_contact.py[line:65] INFO 测试用例:('a001', '123456@163.com', 'bytedance', '研发', 'Java工程师', 13800000000, '重庆市渝中区两路口', 'aa'), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:49:15 test_add_contact.py[line:65] INFO 测试用例:('a002', None, None, None, None, None, None, None), 期望: '此联系人暂无信息', 通过
+Tue, 21 Jul 2020 16:49:23 test_add_contact.py[line:65] INFO 测试用例:('a003', '  ', None, None, None, None, None, None), 期望: '此联系人暂无信息', 通过
+Tue, 21 Jul 2020 16:49:32 test_add_contact.py[line:65] INFO 测试用例:('a004', 'abcd', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:49:42 test_add_contact.py[line:65] INFO 测试用例:('a005', ' @#￥%&*', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:49:52 test_add_contact.py[line:65] INFO 测试用例:('a006', 12345, None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:50:03 test_add_contact.py[line:65] INFO 测试用例:('a007', '12ab#$ cd', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:50:12 test_add_contact.py[line:65] INFO 测试用例:('a008', 'email163.com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:50:22 test_add_contact.py[line:65] INFO 测试用例:('a009', 'email@163com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:50:32 test_add_contact.py[line:65] INFO 测试用例:('a010', 'email@163.', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:50:41 test_add_contact.py[line:65] INFO 测试用例:('a011', 'email163@.com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:50:52 test_add_contact.py[line:65] INFO 测试用例:('a012', 'email163.@com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:51:03 test_add_contact.py[line:65] INFO 测试用例:('a013', 'email163.com@', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:51:12 test_add_contact.py[line:65] INFO 测试用例:('a014', 'email@.163com', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:51:20 test_add_contact.py[line:65] INFO 测试用例:('a015', 'email@163com.', None, None, None, None, None, None), 期望: '请填写正确的邮箱地址', 通过
+Tue, 21 Jul 2020 16:51:39 test_add_contact.py[line:65] INFO 测试用例:('a016', 'abc001@qq.com', 'mi', '研发', '测试开发工程师', 138520000, '北京朝阳', '联系人添加测试'), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:51:51 test_add_contact.py[line:65] INFO 测试用例:('a017', 'abc002@qq.com', 'netease', '运营', '测试工程师', None, None, None), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:52:07 test_add_contact.py[line:65] INFO 测试用例:('a018', 'abc003@qq.com', None, None, None, 1368597545, '深圳', '联系人添加测试'), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:52:17 test_add_contact.py[line:65] INFO 测试用例:('a019', None, 'dji', None, None, 1865954545, None, None), 期望: '致电', 通过
+Tue, 21 Jul 2020 16:52:27 test_add_contact.py[line:65] INFO 测试用例:('a020', None, None, '市场', None, None, '上海', None), 期望: '市场', 通过
+Tue, 21 Jul 2020 16:52:36 test_add_contact.py[line:65] INFO 测试用例:('a021', None, None, None, '数据库工程师', None, None, '联系人添加测试'), 期望: '数据库工程师', 通过
+Tue, 21 Jul 2020 16:52:46 test_add_contact.py[line:65] INFO 测试用例:(None, '1234567@126.com', None, None, '运维工程师', 15986524225, None, None), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:52:56 test_add_contact.py[line:65] INFO 测试用例:(None, '1234568@127.com', None, '教研', None, None, None, '联系人添加测试'), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:53:07 test_add_contact.py[line:65] INFO 测试用例:(None, '1234569@128.com', 'xhs', None, None, None, '广州', None), 期望: '发邮件', 通过
+Tue, 21 Jul 2020 16:53:17 test_add_contact.py[line:65] INFO 测试用例:(None, None, None, '销售', '前端工程师', 188556252, '天津', None), 期望: '致电', 通过
+Tue, 21 Jul 2020 16:53:30 test_add_contact.py[line:65] INFO 测试用例:(None, None, 'sina', None, '算法工程师', None, '香港', '联系人添加测试'), 期望: '算法工程师', 通过
+Tue, 21 Jul 2020 16:53:42 test_add_contact.py[line:65] INFO 测试用例:(None, None, 'huawei', '产品', None, 1995262552, None, '联系人添加测试'), 期望: '致电', 通过
+Tue, 21 Jul 2020 16:54:00 test_add_todo.py[line:59] INFO 测试用例:新建待办001, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:06 test_add_todo.py[line:59] INFO 测试用例:#%$^&, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:12 test_add_todo.py[line:59] INFO 测试用例:123456, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:17 test_add_todo.py[line:59] INFO 测试用例:abcde, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:22 test_add_todo.py[line:59] INFO 测试用例:。。。, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:27 test_add_todo.py[line:59] INFO 测试用例:…, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:33 test_add_todo.py[line:59] INFO 测试用例:%$12cd, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:54:37 test_add_todo.py[line:59] INFO 测试用例:..%$cd。。, 期望: '已添加至待办', 通过
+Tue, 21 Jul 2020 16:55:01 test_send_email.py[line:70] INFO 测试用例:('957584602@qq.com', '测试', '这是一封测试邮件'), 期望: '收件箱', 通过
+Tue, 21 Jul 2020 16:55:15 test_send_email.py[line:62] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/appium_mail_master/TestCase/test_send_email.py", line 46, in test_send_email
+    action.send_email(email, topic, text)
+  File "/home/totoro/PycharmProjects/appium_mail_master/TestAction/send_email.py", line 10, in send_email
+    se.write_email(email, topic, text)
+  File "/home/totoro/PycharmProjects/appium_mail_master/Page/send_email_page.py", line 23, in write_email
+    email_input = self.by_id("mailcompose_address_input")
+  File "/home/totoro/PycharmProjects/appium_mail_master/Common/basepage.py", line 8, in by_id
+    return self.driver.find_element_by_id(id_)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/home/totoro/.local/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/home/totoro/.local/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+Tue, 21 Jul 2020 16:55:26 test_send_email.py[line:62] ERROR 页面元素不存在,异常堆栈信息:Traceback (most recent call last):
+  File "/home/totoro/PycharmProjects/appium_mail_master/TestCase/test_send_email.py", line 46, in test_send_email
+    action.send_email(email, topic, text)
+  File "/home/totoro/PycharmProjects/appium_mail_master/TestAction/send_email.py", line 9, in send_email
+    se.func_select()
+  File "/home/totoro/PycharmProjects/appium_mail_master/Page/send_email_page.py", line 17, in func_select
+    func_button = self.by_id("iv_mail_list_plus")
+  File "/home/totoro/PycharmProjects/appium_mail_master/Common/basepage.py", line 8, in by_id
+    return self.driver.find_element_by_id(id_)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/home/totoro/.local/lib/python3.8/site-packages/appium/webdriver/webdriver.py", line 279, in find_element
+    return self.execute(RemoteCommand.FIND_ELEMENT, {
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 31, in check_response
+    raise wde
+  File "/home/totoro/.local/lib/python3.8/site-packages/appium/webdriver/errorhandler.py", line 26, in check_response
+    super().check_response(response)
+  File "/home/totoro/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
