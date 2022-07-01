@@ -1,4 +1,4 @@
-openpyxl==2.3.3
+openpyxl==2.4.2
 Appium-Python-Client==1.0.1
 ddt==1.4.1
 selenium==3.141.0
